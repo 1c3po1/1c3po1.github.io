@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:700');
+body {
+  color: #555;
+  margin: 0;
+
+  font-family: 'Noto Serif', sans-serif;
+}
+#header {
+  background-color: #00CED1;
+  height: 150px;
+  line-height: 150px;
+}
+#header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#header a:hover {
+  color: #00008B;
+}
+#header-title {
+  display: block;
+  float: left;
+  font-size: 25px;
+  font-weight: bold;
+}
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+#header-nav li{
+  display: inline;
+  padding-left: 20px;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#footer {
+  background-color: #2f2f2f;
+  padding: 50px 0;
+}
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#footer p {
+  color: white;
+}
+a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+a:hover {
+  color: #483D8B;
+}
+.webinfo {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+h1, h2, h3, h4 {
+  color: #333;
+}
+p {
+  line-height: 1.5;
+}
+.info {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
